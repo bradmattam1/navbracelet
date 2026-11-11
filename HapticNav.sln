@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80DBF791-C738-42FB-9FC6-16C0ED146F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HapticNav.Core", "src\HapticNav.Core\HapticNav.Core.csproj", "{5FEDF53F-17D4-43B1-A22E-4616A3375338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HapticNav.ConsoleApp", "src\HapticNav.ConsoleApp\HapticNav.ConsoleApp.csproj", "{A026479E-6A08-4CE4-9E26-362FAE0FB70A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AAFA8FEE-F7CC-450E-8D33-9500A3387B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HapticNav.Core.Tests", "tests\HapticNav.Core.Tests\HapticNav.Core.Tests.csproj", "{90222DED-F494-472B-99C8-F59B74E576E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FEDF53F-17D4-43B1-A22E-4616A3375338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEDF53F-17D4-43B1-A22E-4616A3375338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEDF53F-17D4-43B1-A22E-4616A3375338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEDF53F-17D4-43B1-A22E-4616A3375338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A026479E-6A08-4CE4-9E26-362FAE0FB70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A026479E-6A08-4CE4-9E26-362FAE0FB70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A026479E-6A08-4CE4-9E26-362FAE0FB70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A026479E-6A08-4CE4-9E26-362FAE0FB70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90222DED-F494-472B-99C8-F59B74E576E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90222DED-F494-472B-99C8-F59B74E576E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90222DED-F494-472B-99C8-F59B74E576E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90222DED-F494-472B-99C8-F59B74E576E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FEDF53F-17D4-43B1-A22E-4616A3375338} = {80DBF791-C738-42FB-9FC6-16C0ED146F51}
+		{A026479E-6A08-4CE4-9E26-362FAE0FB70A} = {80DBF791-C738-42FB-9FC6-16C0ED146F51}
+		{90222DED-F494-472B-99C8-F59B74E576E9} = {AAFA8FEE-F7CC-450E-8D33-9500A3387B70}
+	EndGlobalSection
+EndGlobal
